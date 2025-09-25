@@ -1,0 +1,135 @@
+<!doctype html>	<!--Webブラウザにその文章がHTML文書であることを伝える指示-->
+<html lang="ja">	<!--HTML文書のすべての内容を要素とするHTMLタグ、lang属性(HTMLタグに対して言語を指定するHTML属性)を付与することが推奨される-->
+
+<head>	<!--Webページの表示や動作を制御するための様々な情報を要素とするHTMLタグ-->
+	<meta charset="UTF-8">	<!--Webページのメタデータを記述するためのHTMLタグ-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>王華祭サイト</title>	<!--Webページのタイトルを定義するHTMLタグ-->
+</head>
+
+<body>	<!--Webページとして可視化されるコンテンツを要素とするHTMLタグ-->
+<header>
+	<h1>
+		王華祭サイト
+	</h1>
+</header>
+<article id="mainvisual">	<!--HTMLで独立した記事やコンテンツのまとまりを表現するためのHTMLタグ-->
+	<h3>
+		<img src="./asset/img/mainvisual-pc.jpg" alt="王華祭へようこそ">	<!--src:source-->
+	</h3>
+	<h4>
+		<strong>	<!--太字-->
+			王華祭
+		</strong>
+		へようこそ
+	</h4>
+	<h5>
+		こちらのサイトでは「王華祭」で開催している
+		<br>	<!--改行-->
+		出し物の詳細・待ち時間を案内しています。
+	</h5>
+</article>
+<nav>	<!--ウェブページ内のナビゲーションリンクをグループ化するためのタグ-->
+	<ul>	<!--HTMLで、配置順に意味を持たない項目を持つリストを表す-->
+		<li class="current">	<!-- HTMLでリストの項目を表現するためのHTMLタグ-->
+			１階
+			<div class="triangle">
+			</div>
+		</li>
+		<li>
+			<a href="./floor2.html">	<!--anchor、href属性を用いて、別の場所へのハイパーリンクを作成-->
+				２階
+			</a>
+		</li>
+		<li>
+			<a href="./floor3.html">
+				３階
+			</a>
+		</li>
+		<li>
+			<a href="./floor4.html">
+				４階
+			</a>
+		</li>
+		<li>
+			<a href="./floor5.html">
+				体育館
+			</a>
+		</li>
+	</ul>
+</nav>
+<article id="top">
+	<section>	<!--HTMLの要素で、文書の自立した一般的なセクション（区間）を表す-->
+		<ul>
+			<li class="ph">
+				<p>	<!--テキストの段落を表す-->
+					<img src="./asset/img/mainvisual-pc.jpg" alt="おばけ屋敷">
+				</p>
+			</li>
+			<li class="title">
+				<h2>
+					おばけ屋敷
+				</h2>
+				<p>
+					運営時間　09:00～17:30
+				</p>
+			</li>
+			<li class="detail">
+				<a href="./program1.html">
+					詳細
+				</a>
+			</li>
+			<li class="into">
+				<p class="wait">
+					<span>
+						0分
+					</span>
+					待ち
+				</p>
+				<p class="update">
+					(08:00 更新)
+				</p>
+			</li>
+		</ul>
+	</section>
+	<section>
+		<ul>
+			<li class="ph">
+				<p>
+					<img src="./asset/img/mainvisual-pc.jpg" alt="カフェ">
+				</p>
+			</li>
+			<li class="title">
+				<h2>
+					カフェ
+				</h2>
+				<p>
+					運営時間　09:00～17:30
+				</p>
+			</li>
+			<li class="detail">
+				<a href="./program2.html">
+					詳細
+				</a>
+			</li>
+			<li class="into">
+				<p class="wait">
+					<span>
+						0分
+					</span>
+					待ち
+				</p>
+				<p class="update">
+					(08:00 更新)
+				</p>
+			</li>
+		</ul>
+	</section>
+</article>
+<footer>	<!--フッターを表す。そのセクションの著者に関する情報、関連文書へのリンク、著作権情報等を含める。-->
+	<address>	<!--この中のHTMLが個人、団体、組織の連絡先情報を提供していることを示す。-->
+		&copy; 厚木王子高校　情報Ⅱ受講者一同
+	</address>
+</footer>
+</body>
+</html>
