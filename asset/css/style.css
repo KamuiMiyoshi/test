@@ -1,0 +1,57 @@
+/* 全体のフォントと余白を設定 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* 見出しのスタイル */
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+    margin-top: 1em;
+}
+
+/* リストのスタイル */
+ul {
+    list-style-type: none; /* デフォルトの点を消す */
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+    padding: 6px 12px;
+    background-color: #e0f7fa;
+    border-radius: 5px;
+}
+
+/* リンクのスタイル */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 特定のセクション（例：おばけ屋敷、カフェ）の見出し */
+h3 {
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 4px;
+}
+
+/* 待ち時間表示のスタイル */
+br + span {
+    display: block;
+    font-size: 0.9em;
+    color: #888;
+}
+
+/* フッターのスタイル */
+footer {
+    margin-top: 40px;
+    font-size: 0.8em;
+    color: #666;
+    text-align: center;
+}
